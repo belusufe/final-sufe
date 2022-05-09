@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "-": "^0.0.1",
+    "bootstrap": "^5.1.3",
+    "g": "^2.0.1",
+    "purgecss": "^4.1.3"
+  },
+  "name": "final",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "build": "purgecss --css css/custom.css --content index.html -o css/reducido.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
